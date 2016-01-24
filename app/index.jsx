@@ -1,4 +1,5 @@
 require('../styles/base.less');
+require('../images/s33_netticon-01.png');
 
 import React from 'react';
 import { render } from 'react-dom';
