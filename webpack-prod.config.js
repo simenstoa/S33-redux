@@ -31,8 +31,7 @@ module.exports = {
         exclude: /node_modules/
       },
       { test: /\.less?$/,
-        loader: 'style!css!less',
-        include: path.join(__dirname, 'css')
+        loader: 'style!css!less'
       },
       {
         test   : /\.(otf|ttf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
