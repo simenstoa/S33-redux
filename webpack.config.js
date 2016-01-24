@@ -2,6 +2,7 @@ var path = require('path');
 var webpack = require('webpack')
 
 module.exports = {
+    devtool: 'inline-source-map',
     entry: [
       'webpack-dev-server/client?http://0.0.0.0:3000', // WebpackDevServer host and port
       'webpack/hot/only-dev-server', // "only" prevents reload on syntax errors
@@ -15,7 +16,6 @@ module.exports = {
       filename: 'bundle.js',
       publicPath: '/dist/'
     },
-    devtool: 'inline-source-map',
     plugins: [
       new webpack.HotModuleReplacementPlugin()
     ],
