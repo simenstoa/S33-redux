@@ -27,7 +27,7 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        loaders: ['react-hot','babel?cacheDirectory,presets[]=react,presets[]=es2015,presets[]=survivejs-kanban'],
+        loaders: ['babel?cacheDirectory,presets[]=react,presets[]=es2015,presets[]=survivejs-kanban'],
         exclude: /node_modules/
       },
       { test: /\.less?$/,
